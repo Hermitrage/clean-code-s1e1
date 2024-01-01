@@ -1,5 +1,5 @@
 /* Basic Style */
-* {
+body {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
@@ -46,13 +46,12 @@
   display: flex;
 }
 
-.incomplete-task__list,
-.completed-task__list {
+ul {
   margin: 0;
   padding: 0px;
 }
 
-.item {
+li {
   list-style: none;
 }
 
