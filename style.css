@@ -51,8 +51,8 @@ ul {
   padding: 0px;
 }
 
-li, 
-h3 {
+li,
+.title {
   list-style: none;
 }
 
