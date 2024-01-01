@@ -7,6 +7,7 @@
   <body>
     <header class="header">
       <div class="header__content">
+        <h1 class="header__title title">Todo App</h1>
         <img class="header__img" src="./eisenhower-matrix.jpg" alt="Eisenhower Matrix">
         <a class="header__link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
       </div>
@@ -14,17 +15,16 @@
     <main class="main">
       <section class="main_add-task add-task">
         <div class="add-task__wrapper">
-          <label for="new-task" class="add-task__label label">Add Item</label>
+          <h1 class="add-task__title title">Add Item</h1>
           <div class="add-task__task-row">
             <input id="new-task" class="add-task__input task" type="text">
             <button class="add-task__btn">Add</button>
           </div>
         </div>
       </section>
-
       <section class="main_task-list task-list">
         <div class="task-list__incomplete-task incomplete-task">
-          <h3>Todo</h3>
+          <h2 class="task-list__title title">Todo</h2>
           <ul class="incomplete-task__list" id="incomplete-tasks">
             <li class="incomplete-task__item">
               <input type="checkbox" class="task-list__input">
@@ -46,9 +46,8 @@
             </li>
           </ul>
         </div>
-
         <div class="task-list__completed-task completed-task">
-          <h3>Completed</h3>
+          <h2 class="task-list__title title">Completed</h2>
           <ul class="completed-task__list" id="completed-tasks">
             <li class="completed-task__item">
               <input type="checkbox" checked class="task-list__input">
