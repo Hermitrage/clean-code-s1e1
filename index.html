@@ -16,8 +16,8 @@
         <div class="add-task__wrapper">
           <h1 class="add-task__title title">Add Item</h1>
           <div class="add-task__task-row">
-            <input id="new-task" class="add-task__input task" type="text">
-            <button class="add-task__btn">Add</button>
+            <input id="new-task" class="add-task__input task input-text" type="text">
+            <button class="add-task__btn btn">Add</button>
           </div>
         </div>
       </section>
@@ -25,21 +25,21 @@
         <div class="task-list__incomplete-task incomplete-task">
           <h2 class="task-list__title title">Todo</h2>
           <ul class="incomplete-task__list" id="incomplete-tasks">
-            <li class="incomplete-task__item">
-              <input type="checkbox" class="task-list__input">
+            <li class="incomplete-task__item item">
+              <input type="checkbox" class="task-list__input input-checkbox">
               <label class="task-list__label task">Pay Bills</label>
-              <input type="text" class="task-list__input task">
-              <button class="task-list__btn edit">Edit</button>
-              <button class="task-list__btn delete">
+              <input type="text" class="task-list__input task input-text">
+              <button class="task-list__btn btn edit">Edit</button>
+              <button class="task-list__btn btn delete">
                 <img class="delete__img" src="./remove.svg" alt="Remove item">
               </button>
             </li>
-            <li class="incomplete-task__item edit-mode">
-              <input type="checkbox" class="task-list__input">
+            <li class="incomplete-task__item item edit-mode">
+              <input type="checkbox" class="task-list__input input-checkbox">
               <label class="task-list__label task">Go Shopping</label>
-              <input type="text" value="Go Shopping" class="task-list__input task">
-              <button class="task-list__btn edit">Save</button>
-              <button class="task-list__btn delete">
+              <input type="text" value="Go Shopping" class="task-list__input task input-text">
+              <button class="task-list__btn btn edit">Save</button>
+              <button class="task-list__btn btn delete">
                 <img class="delete__img" src="./remove.svg" alt="Remove item">
               </button>
             </li>
@@ -48,12 +48,12 @@
         <div class="task-list__completed-task completed-task">
           <h2 class="task-list__title title">Completed</h2>
           <ul class="completed-task__list" id="completed-tasks">
-            <li class="completed-task__item">
-              <input type="checkbox" checked class="task-list__input">
+            <li class="completed-task__item item">
+              <input type="checkbox" checked class="task-list__input input-checkbox">
               <label class="task-list__label task">See the Doctor</label>
-              <input type="text" class="task-list__input task">
-              <button class="task-list__btn edit">Edit</button>
-              <button class="task-list__btn delete">
+              <input type="text" class="task-list__input task input-text">
+              <button class="task-list__btn btn edit">Edit</button>
+              <button class="task-list__btn btn delete">
                 <img class="delete__img" src="./remove.svg" alt="Remove item">
               </button>
             </li>
